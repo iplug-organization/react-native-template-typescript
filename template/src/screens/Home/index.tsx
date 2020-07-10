@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/native';
-// import { connect } from 'react-redux';
+ import { connect } from 'react-redux';
 
 interface StateProps {
   welcomeText: string;
@@ -8,25 +8,26 @@ interface StateProps {
 
 type Props = StateProps;
 
-// const Home: React.FC<Props> = ({ welcomeText }) => (
-//   <Container>
-//     <Text>{welcomeText}</Text>
-//   </Container>
-// );
-export default () => (
+const Home: React.FC<Props> = ({ welcomeText }) => (
   <Container>
-    <Text>Welcome to react native template</Text>
-    <Text>from IPlug Organization</Text>
+    <Text>{welcomeText}</Text>
   </Container>
 );
 
-// const mapStateToProps = (state: Props) => {
-//   welcomeText;
-// };
+interface IConnectProps {
+  auth: {
+    welcomeText: string;
+  }
+}
 
-// const mapDispatchToProps = {};
+type connectProps = IConnectProps
 
-// export default connect(mapStateToProps, mapDispatchToProps)(Home);
+const mapStateToProps = ({auth: { welcomeText }}: connectProps) => (
+  { welcomeText }
+);
+
+
+export default connect(mapStateToProps, {})(Home);
 
 const Container = styled.View`
   flex: 1;
@@ -38,5 +39,6 @@ const Container = styled.View`
 const Text = styled.Text`
   font-size: 20px;
   font-weight: bold;
+  text-align:center;
   color: #f2f2f2;
 `;
