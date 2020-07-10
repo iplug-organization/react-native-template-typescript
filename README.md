@@ -13,7 +13,7 @@
     </a>
 </p>
 
-<!-- PROJECT SHIELDS -->
+<!-- PROJECT SHIELDS
 
 [![npm](https://img.shields.io/npm/v/react-native-template-rocketseat-advanced.svg?label=npm%20package)](https://www.npmjs.com/package/react-native-template-rocketseat-advanced)
 [![npm](https://img.shields.io/npm/dt/react-native-template-rocketseat-advanced.svg)](https://www.npmjs.com/package/react-native-template-rocketseat-advanced)
@@ -21,7 +21,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/rocketseat/react-native-template-rocketseat-advanced.svg)](https://github.com/Rocketseat/react-native-template-rocketseat-advanced/commits/master)
 [![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit)
 
-<!-- PROJECT LOGO -->
+ PROJECT LOGO 
 <br />
 <p align="center">
   <a href="">
@@ -31,7 +31,7 @@
   <h3 align="center">Template Rocketseat Advanced</h3>
 </p>
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTS 
 
 ## Tabela de Conteúdo
 
@@ -48,7 +48,7 @@
 - [Licença](#licen%C3%A7a)
 - [Contato](#contato)
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE PROJECT 
 
 ## Sobre o Projeto
 
@@ -77,7 +77,7 @@ Abaixo segue o que foi utilizado na criação deste template:
   - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - Desativa todas as regras que são desnecessárias ou que podem dar conflito com o Prettier;
 - [EditorConfig](https://editorconfig.org/) - O EditorConfig é um formatador de arquivos e coleções em forma de Plugin para Editores de código/texto com o objetivo de manter um padrão de código consistente entre diferentes editores, IDE's ou ambientes;
 
-<!-- GETTING STARTED -->
+<!-- GETTING STARTED 
 
 ## Começando
 
@@ -254,7 +254,7 @@ npm login
 
 5. Com a publicação finalizada o template deve ficar disponível através do link `https://www.npmjs.com/package/react-native-template-<nome_do_template>`.
 
-<!-- CONTRIBUTING -->
+<!-- CONTRIBUTING 
 
 ## Contribuição
 
@@ -272,7 +272,7 @@ Para testar o template de um caminho local, coloque o caminho absoluto junto com
 react-native init AwesomeContribution --template file:///Users/Dev/contributions/react-native-template-rocketseat-advanced
 ```
 
-<!-- LICENSE -->
+<!-- LICENSE 
 
 ## Licença
 
@@ -282,4 +282,4 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## Contato
 
-Rocketseat - [Github](https://github.com/rocketseat) - **oi@rocketseat.com.br**
+Rocketseat - [Github](https://github.com/rocketseat) - **oi@rocketseat.com.br** -->
