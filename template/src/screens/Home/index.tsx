@@ -1,31 +1,18 @@
 import React from 'react';
 import styled from 'styled-components/native';
- import { connect } from 'react-redux';
+import { connect } from 'react-redux';
+import { screenProps, connectProps } from '../../store/ducks/auth';
 
-interface StateProps {
-  welcomeText: string;
-}
-
-type Props = StateProps;
-
-const Home: React.FC<Props> = ({ welcomeText }) => (
+// Page Code
+const Home: React.FC<screenProps> = ({ welcomeText }) => (
   <Container>
     <Text>{welcomeText}</Text>
   </Container>
 );
 
-interface IConnectProps {
-  auth: {
-    welcomeText: string;
-  }
-}
-
-type connectProps = IConnectProps
-
-const mapStateToProps = ({auth: { welcomeText }}: connectProps) => (
-  { welcomeText }
-);
-
+const mapStateToProps = ({ auth: { welcomeText } }: connectProps) => ({
+  welcomeText,
+});
 
 export default connect(mapStateToProps, {})(Home);
 
@@ -39,6 +26,6 @@ const Container = styled.View`
 const Text = styled.Text`
   font-size: 20px;
   font-weight: bold;
-  text-align:center;
+  text-align: center;
   color: #f2f2f2;
 `;
