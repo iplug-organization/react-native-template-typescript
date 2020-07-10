@@ -1,14 +1,23 @@
 {
   "name": "react-native-template-typescript-iplug",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
-  "repository": { 
-    "url": "https://github.com/iplug-organization/react-native-template-typescript-iplug", 
+  "repository": {
+    "url": "https://github.com/iplug-organization/react-native-template-typescript-iplug",
     "type": "git"
   },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
   "author": "Lucas Vanni <lucas.vanni@hotmail.com>",
   "license": "MIT",
-  "keywords": ["Template", "TypeScript", "React Native", "Tempate Typescript React Native"],
+  "keywords": [
+    "Template",
+    "TypeScript",
+    "React Native",
+    "Tempate Typescript React Native"
+  ],
   "bugs": "https://github.com/iplug-organization/react-native-template-typescript-iplug/inssues",
   "contributors": [
     "Jonatas Pedroso <jonatasarlindo@hotmail.com> "
